@@ -34,4 +34,8 @@ Fork of the official Gitlab provider with Claranet's contributions and improveme
 
 ## AWS
 
+{% include_relative tf-modules-aws.md %}
+
 ## Azure
+
+{% include_relative tf-modules-azure.md %}
