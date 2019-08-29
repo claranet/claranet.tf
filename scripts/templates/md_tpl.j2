@@ -1,0 +1,8 @@
+## {{ repo.name }}
+[![github](https://img.shields.io/badge/source-github-black.svg?logo=github)]({{ repo.url }})
+{% if repo.is_fork: %}
+Fork of the official `{{ repo.name }}` module with Claranet's contributions and improvements.
+{% else %}
+{{ repo.desc }}
+{% endif %}
+
