@@ -61,7 +61,7 @@ Terraform module composition (feature) to setup Claranet MSP Azure IaaS/VM tools
 ## terraform-azurerm-subnet
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-subnet) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/subnet)
 
-Terraform module for Azure Subnets (network)
+Terraform module for Azure virtual networks subnets
 
 
 ## terraform-azurerm-vm-backup

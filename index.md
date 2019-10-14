@@ -32,7 +32,7 @@ Terraform Provider that manages Claranet Cloud Deploy (Ghost) applications.
 Fork of the official Gitlab provider with Claranet's contributions and improvements.
 
 ## Azure DevOps
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-provider-azuredevops )
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-provider-azuredevops)
 
 Fork of the official Azure DevOps provider with Claranet's contributions and improvements.
 
