@@ -18,9 +18,19 @@ GitHub organization or user::
 """
 
 import pygithub3
+import requests
 from jinja2 import Environment, FileSystemLoader
 
 gh = None
+
+
+def _get_tfregistry_url(proj_name):
+    proj_url_check = 'https://registry.terraform.io/v1/modules/claranet/{}'.format(proj_name)
+    proj_url = 'https://registry.terraform.io/modules/claranet/{}'.format(proj_name)
+    resp = requests.get(proj_url_check)
+    if resp.status_code == 200:
+        return proj_url
+    return None
 
 
 def gather_repos(organization, no_forks=True):
@@ -40,6 +50,8 @@ def gather_repos(organization, no_forks=True):
 
 
 def render_tpl(repo):
+    repo['registry'] = _get_tfregistry_url(repo['name'].replace('terraform-aws-', '').replace('terraform-azurerm-', ''))
+
     file_loader = FileSystemLoader('templates')
     env = Environment(loader=file_loader)
 
