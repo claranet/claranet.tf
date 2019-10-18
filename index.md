@@ -9,6 +9,7 @@
 - [Modules](#modules)
   - [AWS](#aws)
   - [Azure](#azure)
+  - [Datadog](#datadog)
 
 <!-- /TOC -->
 
@@ -45,3 +46,7 @@ Fork of the official Azure DevOps provider with Claranet's contributions and imp
 ## Azure
 
 {% include_relative tf-modules-azure.md %}
+
+## Datadog
+
+{% include_relative tf-modules-datadog.md %}
