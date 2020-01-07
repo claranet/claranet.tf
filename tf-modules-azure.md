@@ -3,6 +3,7 @@
 
 Terraform module for Azure Container Registry
 
+
 ## terraform-azurerm-app-service-plan
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-app-service-plan) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/app-service-plan)
 
@@ -55,6 +56,12 @@ Terraform module for Azure Function App V2
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-function-app-with-plan) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/function-app-with-plan)
 
 Terraform module for Azure Function App V2 with App Service Plan
+
+
+## terraform-azurerm-global-services
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-global-services) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/global-services)
+
+Terraform module composition (feature) for Global (cross Subscriptions) Azure Services
 
 
 ## terraform-azurerm-keyvault
@@ -117,6 +124,12 @@ Terraform module to handle Azure Regions
 Terraform module for Azure Resource Group
 
 
+## terraform-azurerm-route-table
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-route-table) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/route-table)
+
+Terraform module for Azure route table
+
+
 ## terraform-azurerm-run-common
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-run-common) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/run-common)
 
@@ -160,6 +173,6 @@ Terraform module for Azure virtual networks peering
 
 
 ## terraform-azurerm-windows-vm
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-windows-vm)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-windows-vm) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/windows-vm)
 
 Terraform module composition (feature) for ARM Windows Virtual Machine (VM)
