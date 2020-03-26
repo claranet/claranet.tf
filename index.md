@@ -10,6 +10,7 @@
   - [AWS](#aws)
   - [Azure](#azure)
   - [Datadog](#datadog)
+  - [SignalFx](#signalfx)
 
 <!-- /TOC -->
 
@@ -50,3 +51,7 @@ Fork of the official Azure DevOps provider with Claranet's contributions and imp
 ## Datadog
 
 {% include_relative tf-modules-datadog.md %}
+
+## SignalFx
+
+{% include_relative tf-modules-signalfx.md %}
