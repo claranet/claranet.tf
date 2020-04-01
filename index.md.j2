@@ -14,7 +14,7 @@
 # Tools
 {%- for repo in tools|sort(attribute='name') %}
 
-## {{ repo.name }}
+## [{{ repo.name }}]({{ repo.url }})
 
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }})
 
@@ -25,7 +25,7 @@
 # Providers
 {%- for repo in providers|sort(attribute='name') %}
 
-## {{ repo.name }}
+## [{{ repo.name }}]({{ repo.url }})
 
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }})
 
@@ -39,7 +39,7 @@
 ## {{ provider }}
 {%- for repo in modules[provider]|sort(attribute='name') %}
 
-### {{ repo.name }}
+### [{{ repo.name }}]({{ repo.url }})
 
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }}) {% if repo.registry_url %}[![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)]({{ repo.registry_url }}){% endif %}
 
