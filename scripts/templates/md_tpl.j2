@@ -1,8 +1,0 @@
-## {{ repo.name }}
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }}) {% if repo.registry: %}[![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)]({{ repo.registry }}){% endif %}
-{% if repo.is_fork: %}
-Fork of the `{{ repo.name }}` module with Claranet's contributions and improvements.
-{% else %}
-{{ repo.desc }}
-{% endif %}
-

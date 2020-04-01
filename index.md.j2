@@ -1,0 +1,49 @@
+- [Tools](#tools)
+{%- for repo in tools|sort(attribute='name') %}
+  - [{{ repo.name }}](#{{ repo.name.lower() }})
+{%- endfor %}
+- [Providers](#providers)
+{%- for repo in providers|sort(attribute='name') %}
+  - [{{ repo.name.replace("terraform-provider-", "") }}](#{{ repo.name.lower() }})
+{%- endfor %}
+- [Modules](#modules)
+{%- for provider in modules.keys()|sort %}
+  - [{{ provider }}](#{{ provider.lower() }})
+{%- endfor %}
+
+# Tools
+{%- for repo in tools|sort(attribute='name') %}
+
+## {{ repo.name }}
+
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }})
+
+{{ repo.description }}
+
+{%- endfor %}
+
+# Providers
+{%- for repo in providers|sort(attribute='name') %}
+
+## {{ repo.name }}
+
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }})
+
+{{ repo.description }}
+
+{%- endfor %}
+
+# Modules
+{%- for provider in modules|sort %}
+
+## {{ provider }}
+{%- for repo in modules[provider]|sort(attribute='name') %}
+
+### {{ repo.name }}
+
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }}) {% if repo.registry_url %}[![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)]({{ repo.registry_url }}){% endif %}
+
+{{ repo.description }}
+
+{%- endfor %}
+{%- endfor %}
