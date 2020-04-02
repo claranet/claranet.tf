@@ -14,9 +14,9 @@
 # Tools
 {%- for repo in tools|sort(attribute='name') %}
 
-## [{{ repo.name }}]({{ repo.url }})
+## [{{ repo.name }}]({{ repo.html_url }})
 
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }})
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.html_url }})
 
 {{ repo.description }}
 
@@ -25,9 +25,9 @@
 # Providers
 {%- for repo in providers|sort(attribute='name') %}
 
-## [{{ repo.name }}]({{ repo.url }})
+## [{{ repo.name }}]({{ repo.html_url }})
 
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }})
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.html_url }})
 
 {{ repo.description }}
 
@@ -39,9 +39,9 @@
 ## {{ provider }}
 {%- for repo in modules[provider]|sort(attribute='name') %}
 
-### [{{ repo.name }}]({{ repo.url }})
+### [{{ repo.name }}]({{ repo.html_url }})
 
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }}) {% if repo.registry_url %}[![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)]({{ repo.registry_url }}){% endif %}
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.html_url }}) {% if repo.registry_url %}[![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)]({{ repo.registry_url }}){% endif %}
 
 {{ repo.description }}
 
