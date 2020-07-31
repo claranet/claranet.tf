@@ -1,23 +1,12 @@
 #!/usr/bin/env python
 
 """
-Original gist: https://gist.github.com/ralphbean/5733076
-Print all of the clone-urls for a GitHub organization.
-It requires the pygithub3 module, which you can install like this::
-    $ sudo yum -y install python-virtualenv
-    $ mkdir scratch
-    $ cd scratch
-    $ virtualenv my-virtualenv
-    $ source my-virtualenv/bin/activate
-    $ pip install pygithub3
-Usage example::
-    $ python list-all-repos.py
-Advanced usage.  This will actually clone all the repos for a
-GitHub organization or user::
-    $ for url in $(python list-all-repos.py); do git clone $url; done
+Using github3.py module: https://github3.readthedocs.io/en/latest/index.html#more-examples 
 """
 
-import pygithub3
+import github3
+
+import os
 import requests
 from jinja2 import Environment, FileSystemLoader
 
@@ -34,7 +23,7 @@ def _get_tfregistry_url(proj_name):
 
 
 def gather_repos(organization, no_forks=True):
-    all_repos = gh.repos.list(user=organization).all()
+    all_repos = gh.repositories_by(organization)
     for repo in all_repos:
 
         # Don't print the urls for repos that are forks.
@@ -62,9 +51,10 @@ def render_tpl(repo):
 
 
 if __name__ == '__main__':
-    gh = pygithub3.Github()
+    gh = github3.login(token=os.environ.get('GITHUB_TOKEN'))
 
     found_repos = gather_repos('claranet', False)
     for repo in found_repos:
-        if repo['name'].startswith('terraform-aws-') or repo['name'].startswith('terraform-azurerm-'):
+        #if repo['name'].startswith('terraform-aws-') or repo['name'].startswith('terraform-azurerm-'):
+        if repo['name'].startswith('terraform-azurerm-'):
             render_tpl(repo)
