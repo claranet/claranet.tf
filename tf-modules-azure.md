@@ -1,3 +1,9 @@
+## terraform-azurerm-aci
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-aci) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/aci)
+
+Terraform module for Azure Container Instances group
+
+
 ## terraform-azurerm-acr
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-acr) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/acr)
 
@@ -52,6 +58,12 @@ Fork of the `terraform-azurerm-autoscale` module with Claranet's contributions a
 Terraform module for a bastion (Jump Host) via a Linux VM
 
 
+## terraform-azurerm-cosmos-db
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-cosmos-db) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/cosmos-db)
+
+Terraform module for CosmosDB account and databases
+
+
 ## terraform-azurerm-dashboard
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-dashboard) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/dashboard)
 
@@ -83,7 +95,7 @@ Terraform module composition (feature) for Azure SQL Database (SQLServer based)
 
 
 ## terraform-azurerm-diagnostic-settings
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-diagnostic-settings)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-diagnostic-settings) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/diagnostic-settings)
 
 Fork of the `terraform-azurerm-diagnostic-settings` module with Claranet's contributions and improvements.
 
@@ -95,7 +107,7 @@ Terraform module for Azure Eventhub
 
 
 ## terraform-azurerm-front-door
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-front-door)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-front-door) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/front-door)
 
 Terraform module for Azure Front Door
 
@@ -212,6 +224,12 @@ Terraform module for Azure Search Service
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-service-bus) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/service-bus)
 
 Terraform module for Azure Service bus
+
+
+## terraform-azurerm-signalr
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-signalr) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/signalr)
+
+Terraform module for Azure SignalR
 
 
 ## terraform-azurerm-storage-sas-token
