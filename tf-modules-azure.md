@@ -35,7 +35,7 @@ Terraform module for Azure Application Gateway
 
 
 ## terraform-azurerm-app-service
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-app-service)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-app-service) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/app-service)
 
 Terraform module composition (feature) for Azure App Service (Service Plan + WebApp)
 
@@ -76,6 +76,12 @@ Terraform module for Azure Bastion (Managed Jump Host)
 Terraform module for a bastion (Jump Host) via a Linux VM
 
 
+## terraform-azurerm-cdn-frontdoor
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-cdn-frontdoor)
+
+Terraform module for Azure CDN FrontDoor (Standard/Premium)
+
+
 ## terraform-azurerm-cosmos-db
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-cosmos-db) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/cosmos-db)
 
@@ -107,7 +113,7 @@ Terraform module composition (feature) for Azure MySQL Database
 
 
 ## terraform-azurerm-db-mysql-flexible
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-db-mysql-flexible)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-db-mysql-flexible) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/db-mysql-flexible)
 
 Terraform module composition (feature) for Azure MySQL Flexible Database
 
@@ -137,7 +143,7 @@ Fork of the `terraform-azurerm-diagnostic-settings` module with Claranet's contr
 
 
 ## terraform-azurerm-eventgrid
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-eventgrid)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-eventgrid) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/eventgrid)
 
 Terraform module for Azure Eventgrid
 
@@ -146,6 +152,12 @@ Terraform module for Azure Eventgrid
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-eventhub) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/eventhub)
 
 Terraform module for Azure Eventhub
+
+
+## terraform-azurerm-expressroute
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-expressroute) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/expressroute)
+
+Terraform module for Azure ExpressRoute link
 
 
 ## terraform-azurerm-firewall
@@ -157,7 +169,7 @@ Terraform module for Azure Firewall
 ## terraform-azurerm-front-door
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-front-door) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/front-door)
 
-Terraform module for Azure Front Door
+Terraform module for Azure Front Door (classic)
 
 
 ## terraform-azurerm-function-app
@@ -269,7 +281,7 @@ Fork of the `terraform-azurerm-postgresql` module with Claranet's contributions 
 
 
 ## terraform-azurerm-private-endpoint
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-private-endpoint)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-private-endpoint) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/private-endpoint)
 
 Terraform module for Azure Private Endpoint
 
@@ -322,10 +334,22 @@ Terraform module for Azure Search Service
 Terraform module for Azure Service bus
 
 
+## terraform-azurerm-service-principal
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-service-principal)
+
+Terraform module for Azure AD Service Principal and its Azure role assignment
+
+
 ## terraform-azurerm-signalr
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-signalr) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/signalr)
 
 Terraform module for Azure SignalR
+
+
+## terraform-azurerm-storage-account
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-storage-account) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/storage-account)
+
+Terraform module for Azure Storage
 
 
 ## terraform-azurerm-storage-sas-token
@@ -338,12 +362,6 @@ Terraform module for Azure Storage SAS Token access
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-subnet) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/subnet)
 
 Terraform module for Azure virtual networks subnets
-
-
-## terraform-azurerm-support
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-support)
-
-Terraform module for Support (bastion zone)
 
 
 ## terraform-azurerm-synapse
@@ -392,6 +410,12 @@ Terraform module for Azure virtual networks peering
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-vpn) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/vpn)
 
 Terraform module for Azure VPN stack (Gateway, Route table)
+
+
+## terraform-azurerm-waf-policy
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-waf-policy)
+
+Terraform module for Azure WAF Policies
 
 
 ## terraform-azurerm-windows-vm
