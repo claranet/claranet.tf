@@ -77,7 +77,7 @@ Terraform module for a bastion (Jump Host) via a Linux VM
 
 
 ## terraform-azurerm-cdn-frontdoor
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-cdn-frontdoor)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-cdn-frontdoor) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/cdn-frontdoor)
 
 Terraform module for Azure CDN FrontDoor (Standard/Premium)
 
@@ -280,6 +280,12 @@ Terraform module for Azure Policy
 Fork of the `terraform-azurerm-postgresql` module with Claranet's contributions and improvements.
 
 
+## terraform-azurerm-private-dns-resolver
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-private-dns-resolver) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/private-dns-resolver)
+
+Terraform module for Azure DNS Private Resolver
+
+
 ## terraform-azurerm-private-endpoint
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-private-endpoint) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/private-endpoint)
 
@@ -310,6 +316,12 @@ Terraform module for Azure Resource Group
 Terraform module for Azure route table
 
 
+## terraform-azurerm-run
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-run) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/run)
+
+Terraform module composition (feature) to setup Claranet MSP Azure tools
+
+
 ## terraform-azurerm-run-common
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-run-common) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/run-common)
 
@@ -335,7 +347,7 @@ Terraform module for Azure Service bus
 
 
 ## terraform-azurerm-service-principal
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-service-principal)
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-service-principal) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/service-principal)
 
 Terraform module for Azure AD Service Principal and its Azure role assignment
 
@@ -346,10 +358,22 @@ Terraform module for Azure AD Service Principal and its Azure role assignment
 Terraform module for Azure SignalR
 
 
+## terraform-azurerm-site-recovery
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-site-recovery)
+
+Terraform module for Azure Site Recovery
+
+
 ## terraform-azurerm-storage-account
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-storage-account) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/storage-account)
 
 Terraform module for Azure Storage
+
+
+## terraform-azurerm-storage-file
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-storage-file) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/storage-file)
+
+Terraform module for Azure Storage file shares
 
 
 ## terraform-azurerm-storage-sas-token
