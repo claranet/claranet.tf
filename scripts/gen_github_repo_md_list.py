@@ -21,6 +21,9 @@ def _get_tfregistry_url(proj_name):
         return proj_url
     return None
 
+def _get_tofu_registry_url(proj_name):
+    return 'https://search.opentofu.org/module/claranet/{}/azurerm/latest'.format(proj_name)
+
 
 def gather_repos(organization, no_forks=True):
     all_repos = gh.repositories_by(organization)
@@ -40,6 +43,7 @@ def gather_repos(organization, no_forks=True):
 
 def render_tpl(repo):
     repo['registry'] = _get_tfregistry_url(repo['name'].replace('terraform-aws-', '').replace('terraform-azurerm-', ''))
+    repo['registrytofu'] = _get_tofu_registry_url(repo['name'].replace('terraform-aws-', '').replace('terraform-azurerm-', ''))
 
     file_loader = FileSystemLoader('templates')
     env = Environment(loader=file_loader)
