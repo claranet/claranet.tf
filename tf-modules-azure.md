@@ -1,9 +1,3 @@
-## terraform-azurerm-aca
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-aca) 
-
-Terraform module for Azure Container Apps
-
-
 ## terraform-azurerm-aci
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-aci) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/aci) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/aci/azurerm/latest)
 
@@ -118,6 +112,12 @@ Terraform module for a bastion (Jump Host) via a Linux VM
 Terraform module for Azure CDN FrontDoor (Standard/Premium)
 
 
+## terraform-azurerm-container-apps
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-container-apps) 
+
+Terraform module for Azure Container Apps
+
+
 ## terraform-azurerm-cosmos-db
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-cosmos-db) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/cosmos-db) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/cosmos-db/azurerm/latest)
 
@@ -134,6 +134,12 @@ Terraform module for Azure Dashboard
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-data-factory) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/data-factory) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/data-factory/azurerm/latest)
 
 Terraform module for Azure Data Factory
+
+
+## terraform-azurerm-databricks
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-databricks) 
+
+Terraform module for Azure Databricks
 
 
 ## terraform-azurerm-db-maria
@@ -298,6 +304,12 @@ Terraform module for Azure Managed Grafana
 Terraform module for Azure Management group
 
 
+## terraform-azurerm-mongo-cluster
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-mongo-cluster) 
+
+Terraform module for MongoDB Cluster using vCore Architecture
+
+
 ## terraform-azurerm-nat-gateway
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-nat-gateway) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/nat-gateway) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/nat-gateway/azurerm/latest)
 
@@ -320,6 +332,12 @@ Fork of the `terraform-azurerm-network-security-group` module with Claranet's co
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-nsg) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/nsg) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/nsg/azurerm/latest)
 
 Terraform module for Azure Network Security Group
+
+
+## terraform-azurerm-pim
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-pim) 
+
+Terraform module for Azure Privileged Identity Management (PIM)
 
 
 ## terraform-azurerm-policy
@@ -434,6 +452,12 @@ Terraform module for Azure SignalR
 [![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-site-recovery) [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)](https://registry.terraform.io/modules/claranet/site-recovery) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/site-recovery/azurerm/latest)
 
 Terraform module for Azure Site Recovery
+
+
+## terraform-azurerm-static-web-app
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-static-web-app) 
+
+Terraform module for Azure Static Web Apps
 
 
 ## terraform-azurerm-storage-account
