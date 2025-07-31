@@ -22,7 +22,12 @@ def _get_tfregistry_url(proj_name):
     return None
 
 def _get_tofu_registry_url(proj_name):
-    return 'https://search.opentofu.org/module/claranet/{}/azurerm/latest'.format(proj_name)
+    proj_url_check = 'https://api.opentofu.org/registry/docs/modules/claranet/{}/azurerm/index.json'.format(proj_name)
+    proj_url = 'https://search.opentofu.org/module/claranet/{}/azurerm/latest'.format(proj_name)
+    resp = requests.get(proj_url_check)
+    if resp.status_code == 200:
+        return proj_url
+    return None
 
 
 def gather_repos(organization, no_forks=True):

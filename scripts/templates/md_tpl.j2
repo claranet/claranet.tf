@@ -1,5 +1,5 @@
 ## {{ repo.name }}
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }}) {% if repo.registry: %}[![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)]({{ repo.registry }}) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)]({{ repo.registrytofu }}){% endif %}
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)]({{ repo.url }}){% if repo.registry: %} [![registry](https://img.shields.io/badge/terraform-registry-623CE4.svg?style=flat-square&logo=terraform)]({{ repo.registry }}){% endif %}{% if repo.registrytofu: %} [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)]({{ repo.registrytofu }}){% endif %}
 {% if repo.is_fork: %}
 Fork of the `{{ repo.name }}` module with Claranet's contributions and improvements.
 {% else %}

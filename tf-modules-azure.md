@@ -11,7 +11,7 @@ Terraform module for Azure Container Registry
 
 
 ## terraform-azurerm-acs
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-acs) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-acs) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/acs/azurerm/latest)
 
 Terraform module for Azure Communication Services
 
@@ -83,7 +83,7 @@ Terraform module for Azure Autoscale
 
 
 ## terraform-azurerm-autoscale_frk
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-autoscale_frk) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-autoscale_frk)
 
 Fork of the `terraform-azurerm-autoscale` module with Claranet's contributions and improvements.
 
@@ -101,7 +101,7 @@ Terraform module for Azure Bastion (Managed Jump Host)
 
 
 ## terraform-azurerm-bastion-vm
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-bastion-vm) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-bastion-vm) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/bastion-vm/azurerm/latest)
 
 Terraform module for a bastion (Jump Host) via a Linux VM
 
@@ -113,7 +113,7 @@ Terraform module for Azure CDN FrontDoor (Standard/Premium)
 
 
 ## terraform-azurerm-container-apps
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-container-apps) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-container-apps) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/container-apps/azurerm/latest)
 
 Terraform module for Azure Container Apps
 
@@ -137,7 +137,7 @@ Terraform module for Azure Data Factory
 
 
 ## terraform-azurerm-databricks
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-databricks) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-databricks) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/databricks/azurerm/latest)
 
 Terraform module for Azure Databricks
 
@@ -245,7 +245,7 @@ Terraform module for Azure Function App
 
 
 ## terraform-azurerm-iot-hub
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-iot-hub) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-iot-hub)
 
 Terraform module for Azure IoT Hub
 
@@ -257,7 +257,7 @@ Terraform module composition (feature) for Azure KeyVault
 
 
 ## terraform-azurerm-kubernetes
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-kubernetes) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-kubernetes)
 
 Fork of the `terraform-azurerm-kubernetes` module with Claranet's contributions and improvements.
 
@@ -287,7 +287,7 @@ Terraform module composition (feature) for ARM Linux Virtual Machine (VM)
 
 
 ## terraform-azurerm-machine-learning
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-machine-learning) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-machine-learning)
 
 Terraform module for Azure Machine Learning
 
@@ -305,7 +305,7 @@ Terraform module for Azure Management group
 
 
 ## terraform-azurerm-mongo-cluster
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-mongo-cluster) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-mongo-cluster) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/mongo-cluster/azurerm/latest)
 
 Terraform module for MongoDB Cluster using vCore Architecture
 
@@ -323,7 +323,7 @@ Terraform module for Azure Network Manager
 
 
 ## terraform-azurerm-network-security-group
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-network-security-group) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-network-security-group) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/network-security-group/azurerm/latest)
 
 Fork of the `terraform-azurerm-network-security-group` module with Claranet's contributions and improvements.
 
@@ -335,7 +335,7 @@ Terraform module for Azure Network Security Group
 
 
 ## terraform-azurerm-pim
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-pim) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-pim) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/pim/azurerm/latest)
 
 Terraform module for Azure Privileged Identity Management (PIM)
 
@@ -347,7 +347,7 @@ Terraform module for Azure Policy
 
 
 ## terraform-azurerm-postgresql
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-postgresql) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-postgresql) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/postgresql/azurerm/latest)
 
 Fork of the `terraform-azurerm-postgresql` module with Claranet's contributions and improvements.
 
@@ -455,7 +455,7 @@ Terraform module for Azure Site Recovery
 
 
 ## terraform-azurerm-static-web-app
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-static-web-app) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-static-web-app) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/static-web-app/azurerm/latest)
 
 Terraform module for Azure Static Web Apps
 
@@ -497,7 +497,7 @@ Terraform module for Support (bastion zone)
 
 
 ## terraform-azurerm-synapse
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-synapse) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-synapse) [![open tofu](https://img.shields.io/badge/opentofu-registry-yellow.svg?style=flat-square&logo=opentofu)](https://search.opentofu.org/module/claranet/synapse/azurerm/latest)
 
 Terraform module for Azure Synapse
 
@@ -509,7 +509,7 @@ Terraform module for Resources Tagging
 
 
 ## terraform-azurerm-traffic-manager
-[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-traffic-manager) 
+[![github](https://img.shields.io/badge/source-github-black.svg?style=flat-square&logo=github)](https://github.com/claranet/terraform-azurerm-traffic-manager)
 
 Terraform module for Azure Traffic Manager
 
